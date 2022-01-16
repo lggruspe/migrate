@@ -1,0 +1,5 @@
+BEGIN TRANSACTION;
+PRAGMA user_version=2;
+DROP TABLE Data;
+DROP TABLE ThisShouldntExist;
+COMMIT;
